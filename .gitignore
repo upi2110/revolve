@@ -1,0 +1,41 @@
+# Ignore virtual environment
+ai_env/
+.venv/
+
+# Ignore model files
+models/*.pkl
+models/*.h5
+
+# Ignore logs
+logs/
+*.log
+*.csv
+
+# Ignore compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore data files if needed
+*.xlsx
+*.bak
+*.tmp
+
+# Ignore OS & editor files
+.DS_Store
+*.swp
+*.swo
+*.~*
+
+# Ignore Jupyter checkpoints (if used)
+.ipynb_checkpoints/
+
+# Ignore package installs
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Ignore environment/config
+.env
+.envrc
